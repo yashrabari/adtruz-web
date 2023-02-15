@@ -273,6 +273,56 @@
                     }
                 ]
             }
+        ],
+        "menu_2": [
+            {
+                "text": "Consumer Electronic",
+                "url": "/shop",
+                "extraClass": "menu-item-has-children",
+                "subClass": "sub-menu",
+                "subMenu": [
+                    {
+                        "text": "Marketplace Full Width",
+                        "url": "/"
+                    }
+                ]
+            },
+            {
+                "text": "Clothing & Apparel",
+                "url": "/shop",
+                "extraClass": "menu-item-has-children",
+                "subClass": "sub-menu",
+                "subMenu": [
+                    {
+                        "text": "Marketplace Full Width",
+                        "url": "/"
+                    }
+                ]
+            },
+            {
+                "text": "Home, Garden & Kitchen",
+                "url": "/shop",
+                "extraClass": "menu-item-has-children",
+                "subClass": "sub-menu",
+                "subMenu": [
+                    {
+                        "text": "Marketplace Full Width",
+                        "url": "/"
+                    }
+                ]
+            },
+            {
+                "text": "Computer & Technology",
+                "url": "/shop",
+                "extraClass": "menu-item-has-children",
+                "subClass": "sub-menu",
+                "subMenu": [
+                    {
+                        "text": "Marketplace Full Width",
+                        "url": "/"
+                    }
+                ]
+            }
         ]
     },
     "product_categories": [

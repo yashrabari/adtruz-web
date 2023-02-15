@@ -45,9 +45,9 @@ const HomeDefaultDealOfDay = ({ collectionSlug }) => {
                 <div className="ps-section__header">
                     <div className="ps-block--countdown-deal">
                         <div className="ps-block__left">
-                            <h3>Deal of the day</h3>
+                            <h3>Recetly Added</h3>
                         </div>
-                        <div className="ps-block__right">
+                        {/* <div className="ps-block__right">
                             <figure>
                                 <figcaption>End in:</figcaption>
                                 <CountDownSimple
@@ -55,7 +55,7 @@ const HomeDefaultDealOfDay = ({ collectionSlug }) => {
                                     timeFormat="MM DD YYYY, h:mm a"
                                 />
                             </figure>
-                        </div>
+                        </div> */}
                     </div>
                     <Link href="/shop">
                         <a>View all</a>

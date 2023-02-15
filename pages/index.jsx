@@ -16,14 +16,14 @@ const HomepageDefaultPage = () => {
         <PageContainer title="Jungle of resellers products.">
             <main id="homepage-1">
                 <HomeDefaultBanner />
-                <SiteFeatures />
-                <HomeDefaultDealOfDay collectionSlug="deal-of-the-day" />
-                <HomeAdsColumns />
                 <HomeDefaultTopCategories />
+                <HomeDefaultDealOfDay collectionSlug="deal-of-the-day" />
+                <SiteFeatures />
                 <HomeDefaultProductListing
                     collectionSlug="consumer-electronics"
                     title="Consumer Electronics"
                 />
+                <HomeAdsColumns />
                 <HomeDefaultProductListing
                     collectionSlug="clothings"
                     title="Clothings"

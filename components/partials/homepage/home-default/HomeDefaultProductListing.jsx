@@ -9,20 +9,20 @@ const HomeDefaultProductListing = ({ collectionSlug, title }) => {
     const [currentCollection, setCurrentCollection] = useState('new-arrivals');
     const { productItems, loading, getProductsByCollection } = useGetProducts();
     const sectionLinks = [
+        // {
+        //     title: 'New Arrivals',
+        //     name: 'new-arrivals',
+        //     slug: collectionSlug,
+        // },
         {
-            title: 'New Arrivals',
-            name: 'new-arrivals',
-            slug: collectionSlug,
+            title: 'Posts',
+            name: 'posts',
+            slug: 'fullwidth-posts-all',
         },
         {
-            title: 'Best seller',
-            name: 'best-seller',
-            slug: 'fullwidth-clothing-best-sellers',
-        },
-        {
-            title: 'Most Popular',
-            name: 'most-popular',
-            slug: 'fullwidth-clothing-most-popular',
+            title: 'Requirements',
+            name: 'requirements',
+            slug: 'fullwidth-requirements-all',
         },
     ];
 
@@ -80,6 +80,7 @@ const HomeDefaultProductListing = ({ collectionSlug, title }) => {
                                 <a>View All</a>
                             </Link>
                         </li>
+
                     </ul>
                 </div>
                 <div className="ps-section__content">{productItemsView}</div>

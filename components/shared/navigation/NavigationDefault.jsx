@@ -31,7 +31,7 @@ class NavigationDefault extends Component {
                     </div>
                     <div className="navigation__right">
                         <Menu
-                            source={menuData.menuPrimary.menu_1}
+                            source={menuData.menuPrimary.menu_2}
                             className="menu"
                         />
                         <ul className="navigation__extra">
@@ -40,17 +40,7 @@ class NavigationDefault extends Component {
                                     <a>Sell on Martfury</a>
                                 </Link>
                             </li>
-                            <li>
-                                <Link href="/account/order-tracking">
-                                    <a>Tract your order</a>
-                                </Link>
-                            </li>
-                            <li>
-                                <CurrencyDropdown />
-                            </li>
-                            <li>
-                                <LanguageSwicher />
-                            </li>
+
                         </ul>
                     </div>
                 </div>
